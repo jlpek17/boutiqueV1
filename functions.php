@@ -77,6 +77,7 @@ function createCart()
 }
 ?>
 
+
 <?php
 /* This function reset the cart after success order */
 function resetOnSuccess()
@@ -89,8 +90,6 @@ function resetOnSuccess()
 ?>
 
 
-
-
 <?php
 /*This function reset the cart */
 function resetCart()
@@ -100,6 +99,7 @@ function resetCart()
 }
 ?>
 
+
 <?php
 /*This function reset the expedition method */
 function resetExpeditionMethod()
@@ -107,8 +107,6 @@ function resetExpeditionMethod()
     $_SESSION["expedition"] = [];
 }
 ?>
-
-
 
 
 <?php
@@ -130,7 +128,6 @@ function addToCart($article)
     array_push($_SESSION["cart"], $article);
 }
 ?>
-
 
 
 <?php
